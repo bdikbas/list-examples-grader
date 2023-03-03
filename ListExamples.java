@@ -36,14 +36,14 @@ class ListExamples {
       }
     }
     
-    while(index < list1.size()) {
-      result.add(0, list1.get(index));
-      index += 1;
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      index1 += 1;
     }
-    index = 0;
-    while(index < list2.size()) {
-      result.add(0, list2.get(index));
-      index += 1;
+    
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index2 += 1;
     }
     return result;
   }
